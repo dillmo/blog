@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ignotis&#39; Blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Ignotis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Sep 2015 10:43:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/blog/about/</link>
+      <pubDate>Tue, 29 Sep 2015 10:43:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/blog/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about-my-blog:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About my Blog&lt;/h2&gt;
+
+&lt;p&gt;This blog serves as a repository for all my personal projects. It is designed to
+be informal and irregularly updated. As a result, I will use informal language
+and be sparse on proofreading. If I err in the grammatical sense, please do not
+hesitate to warn me in the comments.&lt;/p&gt;
+
+&lt;p&gt;My blog will never serve ads. However, its comments are powered by Disqus, which
+some extensions, especially Privacy Badger, will block for tracking. If you want
+to write a comment and cannot find the comment section, please try disabling
+your advertisement and tracking blockers first.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Me&lt;/h2&gt;
+
+&lt;p&gt;Hi, I&amp;rsquo;m Dillon Morse, a junior at the Academy for Science and Design, where I
+study computer science, chemistry, and calculus. If you met me online, you
+probably know me as Ignotis, an active botmaker on the Awesomenauts forums. I
+have a strong interest in artificial intelligence and, more broadly, computer
+systems and programming. While I spend most of my free time on personal
+projects, I also enjoy casual gaming and action RPGs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
