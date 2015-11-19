@@ -7,7 +7,7 @@
 		<meta name="author" content="Dillon &#34;Ignotis&#34; Morse">
 		<meta name="description" content="Ramblings of a teenager obsessed with AI">
 		<meta name="generator" content="Hugo 0.14" />
-		<title>Chrono Warriors Progress Update #1 &middot; Ignotis&#39; Blog</title>
+		<title>Chrono Warriors Progress Update #2 &middot; Ignotis&#39; Blog</title>
 		<link rel="shortcut icon" href="https://dillmo.github.io/blog/images/favicon.ico">
 		<link rel="stylesheet" href="https://dillmo.github.io/blog/css/style.css">
 		<link rel="stylesheet" href="https://dillmo.github.io/blog/css/highlight.css">
@@ -32,27 +32,24 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Chrono Warriors Progress Update #1</h1>
-                    <h2 class="headline">November 12, 2015</h2>
+                    <h1>Chrono Warriors Progress Update #2</h1>
+                    <h2 class="headline">November 19, 2015</h2>
                 </header>
                 <section id="post-body">
                     
 
-<p><strong>The Chrono Warriors code is now officially underway!</strong> Funnynin and I have
-worked hard to prepare Chrono Warriors for collaboration, and it is finally
-ready. This first progress check is part of a weekly series that will be
-published each Thursday. Each will mention the latest improvements in the game&rsquo;s
-codebase.</p>
+<p><strong>More work has been done on Chrono Warriors!</strong> This week&rsquo;s focus has been
+rendering logic for maps. At this point, the game is completely capable of
+rendering any maps designers make. Just don&rsquo;t start work yet. We need to flesh
+out a few specifics before maps are actually playable, rather than simply
+renderable.</p>
 
-<h2 id="new-this-week:d9c61739c30937f4e61f9041e645482e">New this week</h2>
+<h2 id="new-this-week:8530465f472dbe4e7e8c110bfa3d57d0">New this week</h2>
 
 <ul>
-<li>Got underway with PySFML, a simple multimedia library for use with Python</li>
-<li>Scaffolding for player and movement logic</li>
-<li>Created a basic map using Tiled, an open-source map editor. We are working
-hard to add logic for handling Tiled maps. Tiled provides us the flexibility
-to easily create new maps with custom tilesets, and is easy to use even for
-non-coders.</li>
+<li>Now renders Tiled maps. Tilesets should be placed in <code>src/client/assets</code> and
+maps should be placed in <code>src/client/levels</code>.</li>
+<li>Now depends on pytmx, a library for parsing Tiled maps.</li>
 </ul>
 
                 </section>
@@ -66,7 +63,7 @@ non-coders.</li>
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fdillmo.github.io%2fblog%2fposts%2fCWProgressUpdate1%2f - Chrono%20Warriors%20Progress%20Update%20%231 "><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fdillmo.github.io%2fblog%2fposts%2fCWProgressUpdate2%2f - Chrono%20Warriors%20Progress%20Update%20%232 "><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -101,12 +98,12 @@ non-coders.</li>
     
     
         
-        <li>
-            <a href="https://dillmo.github.io/blog/posts/CWProgressUpdate2/">Chrono Warriors Progress Update #2<aside class="dates">Nov 19</aside></a>
-        </li>
-        
    
     
+        
+        <li>
+            <a href="https://dillmo.github.io/blog/posts/CWProgressUpdate1/">Chrono Warriors Progress Update #1<aside class="dates">Nov 12</aside></a>
+        </li>
         
    
     

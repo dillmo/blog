@@ -6,8 +6,32 @@
     <description>Recent content in Posts on Ignotis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2015 16:40:56 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2015 08:23:11 -0500</lastBuildDate>
     <atom:link href="https://dillmo.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chrono Warriors Progress Update #2</title>
+      <link>https://dillmo.github.io/blog/posts/CWProgressUpdate2/</link>
+      <pubDate>Thu, 19 Nov 2015 08:23:11 -0500</pubDate>
+      
+      <guid>https://dillmo.github.io/blog/posts/CWProgressUpdate2/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;More work has been done on Chrono Warriors!&lt;/strong&gt; This week&amp;rsquo;s focus has been
+rendering logic for maps. At this point, the game is completely capable of
+rendering any maps designers make. Just don&amp;rsquo;t start work yet. We need to flesh
+out a few specifics before maps are actually playable, rather than simply
+renderable.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-this-week:8530465f472dbe4e7e8c110bfa3d57d0&#34;&gt;New this week&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Now renders Tiled maps. Tilesets should be placed in &lt;code&gt;src/client/assets&lt;/code&gt; and
+maps should be placed in &lt;code&gt;src/client/levels&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Now depends on pytmx, a library for parsing Tiled maps.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Chrono Warriors Progress Update #1</title>
